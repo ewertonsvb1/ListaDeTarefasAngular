@@ -1,27 +1,55 @@
-# ListaDeTarefas
+# 📌 Lista de Tarefas (Angular 18)  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+🚀 **Lista de Tarefas** é um **CRUD completo** desenvolvido com Angular 18.  
+O projeto permite gerenciar tarefas de forma eficiente, possibilitando alterar seu estado entre **"Em Andamento"** e **"Concluído"**, além de definir **datas de início e conclusão**.  
 
-## Development server
+O sistema também exibe o **total de tarefas cadastradas**, garantindo um acompanhamento claro do progresso.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🎯 **Funcionalidades**  
+✅ **Adicionar novas tarefas** com título, data de início e status  
+✅ **Atualizar** o estado de uma tarefa (Em andamento ✅➡️ Concluído 🎯)  
+✅ **Excluir** tarefas indesejadas 🗑️  
+✅ **Visualizar** o total de tarefas criadas 📊  
+✅ **Interface responsiva e moderna** com **Bootstrap**  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ **Tecnologias Utilizadas**  
+🔹 **Angular 18** - Framework front-end poderoso e modular  
+🔹 **JSON-Server** - Simulação de API REST para persistência dos dados  
+🔹 **Bootstrap** - Design moderno e responsivo  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🚀 **Como Executar o Projeto**  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 🔹 **1. Clone o Repositório**
 
-## Running end-to-end tests
+###🔹 2. Instale as Dependências**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+npm install
 
-## Further help
+###🔹 3. Inicie o Servidor JSON (Fake API)**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+json-server --watch db.json
+
+###🔹 4. Inicie o Servidor Angular**
+
+ng serve
+
+Acesse no navegador: http://localhost:4200
+
+📸 Capturas de Tela
+
+![gerenciadordetarefa](https://github.com/user-attachments/assets/3b232d50-4ab3-4b83-951c-7e895d2d00fa)
+
+
+## 📌 To-Do | Melhorias Futuras
+
+ 🔄 Implementação de arrastar e soltar para alterar o status das tarefas
+
+ 📅 Filtro para visualizar tarefas por data de início/conclusão
+
+ 🌙 Modo escuro para melhor experiência visual
