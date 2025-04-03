@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "e5f7",
+      "tarefa": "AngularCore",
+      "categoria": "casa",
+      "concluido": true,
+      "dataCriacao": "2025-04-03T13:47:53.860Z",
+      "dataConclusao": "2025-04-03T16:50:56.601Z"
+    },
+    {
+      "id": "0066",
+      "tarefa": "aa",
+      "categoria": "faculdade",
+      "concluido": true,
+      "dataCriacao": "2025-04-03T13:48:08.837Z",
+      "dataConclusao": "2025-04-03T14:25:38.862Z"
+    },
+    {
+      "id": "ff82",
+      "tarefa": "aa",
+      "categoria": "academia",
+      "concluido": true,
+      "dataCriacao": "2025-04-03T13:56:10.852Z",
+      "dataConclusao": "2025-04-03T14:25:41.662Z"
+    }
+  ]
+}

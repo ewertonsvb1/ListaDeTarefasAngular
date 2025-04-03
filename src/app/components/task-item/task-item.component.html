@@ -1,0 +1,9 @@
+<div class="task" (dblclick)="toggleConcluiido(tarefa)" [ngClass]="{reminder: tarefa.concluido, 'pending': !tarefa.concluido}">
+  <h3>
+    {{ tarefa.tarefa }}
+    <fa-icon [icon]="faTimes" [ngStyle]="{'color': 'red'}" (click)="onDelete(tarefa)"></fa-icon>
+  </h3>
+  <p>Categoria: {{ tarefa.categoria }}</p>
+  <p>📅 Criada em: {{ tarefa.dataCriacao | date:'dd/MM/yyyy HH:mm' }}</p>
+  <p *ngIf="tarefa.concluido"> ✅ Finalizada em: {{ tarefa.dataConclusao | date:'dd/MM/yyyy HH:mm' }}</p>
+</div>

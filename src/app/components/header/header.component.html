@@ -1,0 +1,16 @@
+<header>
+  <h1>{{ title }}</h1>
+
+  <div>
+    <fa-icon [icon]="faListCheck" [ngStyle]="{'color': 'blue'}"></fa-icon>
+    Total de tarefas: {{ totalTarefas }}
+  </div>
+  <div>
+    <fa-icon [icon]="faClock" [ngStyle]="{'color': 'orange'}"></fa-icon>
+    Tarefas em andamento: {{ tarefasEmAndamento }}
+  </div>
+  <div  class="task-status completed">
+    <fa-icon [icon]="faCheck" [ngStyle]="{'color': 'green'}"></fa-icon>
+    Tarefas concluídas: {{ tarefasConcluidas }}
+  </div>
+</header>

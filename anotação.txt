@@ -1,0 +1,1 @@
+iniciar a Api local: npx json-server --watch db.json
